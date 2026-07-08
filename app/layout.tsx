@@ -40,7 +40,11 @@ export default function RootLayout({
             <Link className="pb-3 text-zinc-200" href="/contact">
               Contact us
             </Link>
+            <Link className="pb-3 text-zinc-200" href="/test">
+              Test
+            </Link>
           </nav>
+          <hr className="border-zinc-200" />
         </header>
         {children}
       </body>
