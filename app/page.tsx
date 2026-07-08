@@ -1,7 +1,7 @@
 //import Image from "next/image";
 import Hero from "../components/hero_component";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
       <Hero />

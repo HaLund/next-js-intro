@@ -31,8 +31,14 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <header>
           <nav>
-            <Link href="/" className="text-zinc-200">
+            <Link className="pb-3 text-zinc-200 col-end-2" href="/">
               Home
+            </Link>
+            <Link className="pb-3 text-zinc-200" href="/about/founders">
+              About
+            </Link>
+            <Link className="pb-3 text-zinc-200" href="/contact">
+              Contact us
             </Link>
           </nav>
         </header>
