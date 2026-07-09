@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-type Person = {
+interface Person {
   name: string;
   profession?: string;
   noOfAwards?: number;
@@ -8,7 +8,7 @@ type Person = {
   discovered?: string;
 };
 
-type ImageProps = {
+interface ImageProps {
   url: string;
   alt?: string;
 };
