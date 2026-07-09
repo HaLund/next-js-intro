@@ -46,6 +46,9 @@ export default function RootLayout({
             <Link className="pb-3 text-zinc-200" href="/card">
               TestChild
             </Link>
+            <Link className="pb-3 text-zinc-200" href="/soft_drinks">
+              Soft Drinks
+            </Link>
           </nav>
           <hr className="border-zinc-200" />
         </header>
