@@ -55,6 +55,12 @@ export default function RootLayout({
             <Link className="pb-3 text-zinc-200" href="/recipies">
               Recipies
             </Link>
+            <Link className="pb-3 text-zinc-200" href="/character/1">
+              Character 1
+            </Link>
+            <Link className="pb-3 text-zinc-200" href="/character/2">
+              Character 2
+            </Link>
           </nav>
           <hr className="border-zinc-200" />
         </header>
