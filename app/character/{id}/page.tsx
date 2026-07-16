@@ -37,14 +37,15 @@ export default async function CharacterPage(
 ) {
   const { id: idStr } = await props.params;
 
-  const id = strToNr(idStr);
+  const id = strToNr(idStr) ?? 1;
+  console.log(id);
 
   // redirect to not found if id is not a valid number
   if (!id) {
-    return notFound();
+    //return notFound();
   }
 
-  const character = getCharacterById(id);
+  const character = getCharacterById(id ?? 1);
 
   // redirect to not found if we don't find a character
   if (!character) {

@@ -5,3 +5,4 @@ export function getImageUrl(person: { imageId: string; }) {
     's.jpg'
   );
 }
+

@@ -61,6 +61,12 @@ export default function RootLayout({
             <Link className="pb-3 text-zinc-200" href="/character/2">
               Character 2
             </Link>
+            <Link className="pb-3 text-zinc-200" href="/futurama">
+              Futurama API
+            </Link>
+            <Link className="pb-3 text-zinc-200" href="/blog" >
+              Blog
+            </Link>
           </nav>
           <hr className="border-zinc-200" />
         </header>
